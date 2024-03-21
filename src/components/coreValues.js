@@ -1,4 +1,4 @@
-import './coreValues.css'
+import './index-style.css'
 export default function CoreValues () {
 
     return(

@@ -1,4 +1,4 @@
-import './navbar.css'
+import './index-style.css'
 
 export default function Navbar() {
   return (

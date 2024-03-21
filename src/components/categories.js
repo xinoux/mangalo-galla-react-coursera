@@ -1,4 +1,4 @@
-import './categories.css'
+import './index-style.css'
 export default function Categories() {
 
 return(

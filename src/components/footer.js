@@ -1,4 +1,4 @@
-import './footer.css'
+import './index-style.css'
 export default function Footer() {
 
 return(

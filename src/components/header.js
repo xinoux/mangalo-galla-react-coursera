@@ -1,4 +1,4 @@
-import "./header.css";
+import './index-style.css'
 export default function Header(props) {
   return (
     <header>

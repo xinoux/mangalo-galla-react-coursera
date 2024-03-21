@@ -1,4 +1,4 @@
-import "./slider.css";
+import './index-style.css'
 export default function Slider() {
   return (
     <section className="slider">
