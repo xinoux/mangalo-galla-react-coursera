@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+* {
+  font-family: "Arvo";
+  font-weight: 500;
+  margin: 0px;
+  padding: 0px;
+  color: var(--secondary);
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.categories-container {
+  padding-left: 4%;
+  padding-right: 4%;
+  background-color: antiquewhite;
+}
+
+.categories {
+  display: flex;
+  justify-content: space-around;
+}
+.categories-title {
+  display: flex;
+  color: black;
+  text-transform: uppercase;
+  justify-content: center;
+  text-align: center;
+  padding-top: 1rem;
+  font-weight: 700;
+}
+
+.sampleitems {
+  height: 300px;
+  width: 100px;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  padding: 1rem;
+  transition: transform 0.5s;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 2rem;
+  margin-top: 0.5rem;
+  border-radius: 1rem;
+}
+
+.sampleitems img {
+  border-radius: 0.8rem;
+}
+.sampleitems > figcaption {
+  color: var(--primary);
+  font-weight: 550;
+  transition: transform 0.5s;
+}
+
+.sampleitems:hover {
+  background-color: rgb(119, 112, 103);
+  color: var(--secondary);
+}
+
+.sampleitems:hover figcaption {
+  color: var(--secondary);
+}
