@@ -7,13 +7,14 @@ import Categories from "./components/categories.js";
 import CoreValues from "./components/coreValues.js";
 import Footer from "./components/footer.js";
 
+
 function App() {
   return (
     <div className="Applic">
-      <Header firstName ="Niño" lastName ="Noble" />
+      <Header />
       <Navbar />
       <Slider />
-      <Categories />
+      <Categories/>
       <CoreValues />
       <Footer />
     </div>

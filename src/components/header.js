@@ -1,5 +1,5 @@
 import './index-style.css'
-export default function Header(props) {
+export default function Header({firstName, lastName}) {
   return (
     <header>
       <div className="logo">
