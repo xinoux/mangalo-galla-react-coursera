@@ -1,3 +1,4 @@
+import React from 'react';
 import './index-style.css'
 export default function Footer() {
 

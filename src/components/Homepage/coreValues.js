@@ -1,5 +1,6 @@
+import React from 'react';
 import CoreValuesItems from "./coreValuesItems";
-import "./index-style.css";
+// import "./index-style.css";
 export default function CoreValues() {
   return (
     <section className="about-us-container">

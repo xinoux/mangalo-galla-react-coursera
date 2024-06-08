@@ -1,3 +1,5 @@
+import React from 'react';
+
 export default function CoreValuesItems({title, article}){
 
 return( 

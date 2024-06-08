@@ -1,5 +1,6 @@
+import React from 'react';
 import CategoryItem from "./categoryItem";
-import "./index-style.css";
+// import "./index-style.css";
 
 const categories = [
   { type: "Earrings", image: "img/earrings.jpg" },

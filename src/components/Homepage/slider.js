@@ -1,4 +1,5 @@
-import './index-style.css'
+import React from 'react';
+// import './index-style.css'
 export default function Slider() {
   return (
     <section className="slider">

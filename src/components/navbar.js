@@ -1,3 +1,4 @@
+import React from 'react';
 import './index-style.css'
 
 export default function Navbar() {
@@ -5,17 +6,17 @@ export default function Navbar() {
     <nav className="navbar-row">
       <div className="navbar-containers">
         <ul>
-          <li>
-            <a href="index.html">SHOP</a>
+        <li>
+            <a href="/">Home</a>
           </li>
           <li>
-            <a href="about.html">COLLECTIONS</a>
+            <a href="shop">SHOP</a>
           </li>
           <li>
-            <a href="services.html">Locations</a>
+            <a href="collections">COLLECTIONS</a>
           </li>
           <li>
-            <a href="contact.html">About</a>
+            <a href="about">About</a>
           </li>
         </ul>
       </div>

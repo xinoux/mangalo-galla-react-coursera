@@ -1,3 +1,5 @@
+import React from 'react';
+
 export default function CategoryItem({ type, image,  }) {
   return (
     <div className="sampleitems">
